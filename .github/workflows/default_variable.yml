@@ -1,0 +1,14 @@
+name: default_variable
+on: push
+jobs:
+  variable:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run default variable
+        run: |
+         echo $HOME
+         echo $GITHUB_WORKFLOW
+         echo $GITHUB_ACTOR
+         echo $GITHUB_EVENT_NAME
+         
+        
