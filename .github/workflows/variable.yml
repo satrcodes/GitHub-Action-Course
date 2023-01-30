@@ -1,11 +1,13 @@
 
 name: variable
 on: push
+env: 
+ name: Ali 
 jobs:
   variable:
     runs-on: ubuntu-latest
     steps:
       - name: Run Hello
-        run: echo Hello
+        run: echo Hello $name
 
     
