@@ -1,0 +1,11 @@
+
+name: variable
+on: push
+jobs:
+  variable:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Hello
+        run: echo Hello
+
+    
